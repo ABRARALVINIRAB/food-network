@@ -10,6 +10,7 @@ body{
 }
 .for-paragraph{
     font-size: 20px;
+    font
 }
 .for-felx{
     display:flex;
@@ -20,8 +21,8 @@ body{
     margin-left: 20px;
 }
 .for-image{
-    width: 80%;
-    height: 90%;
+    width: 500px;
+    height: 500px;
     margin-left: 50px;
     
 }
@@ -35,7 +36,12 @@ body{
     
 }
 #for-flex-banner{
-    background-image: url(images/banner.png);
+    background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     padding-left: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
 }
+
