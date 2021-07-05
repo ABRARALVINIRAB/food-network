@@ -1,0 +1,41 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+#for-skip{
+    color: orange;
+}
+.for-h1{
+    font-size: 50px;
+}
+.for-paragraph{
+    font-size: 20px;
+}
+.for-felx{
+    display:flex;
+
+}
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+}
+.for-image{
+    width: 80%;
+    height: 90%;
+    margin-left: 50px;
+    
+}
+.for-anchor{
+    text-decoration: none;
+    border-radius: 20px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#for-flex-banner{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
