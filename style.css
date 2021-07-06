@@ -1,8 +1,15 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    margin: 0px;
+   
 }
-#for-skip{
+.for-felx{
+    display:flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+}
+#for-skip-colour{
     color: orange;
 }
 .for-h1{
@@ -11,20 +18,6 @@ body{
 .for-paragraph{
     font-size: 20px;
     font
-}
-.for-felx{
-    display:flex;
-
-}
-.half-width{
-    width: 50%;
-    margin-left: 20px;
-}
-.for-image{
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
-    
 }
 .for-anchor{
     text-decoration: none;
@@ -35,6 +28,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+
+
+
+.for-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    
+}
+
 #for-flex-banner{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
@@ -88,6 +91,12 @@ body{
 .first-box p{
     padding-left: 20px;
 }
+
+#for-fourt-section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
 .for-last-box-shadow{
     width: 30%;
     height: 300px;
@@ -98,11 +107,6 @@ body{
     box-shadow: 10px 10px  rgb(73, 128, 0);
     padding-left: 30px
 }
-#for-fourt-section{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-left: 20px;
-}
 
 #for-email{
     margin-left: 20px;
@@ -112,9 +116,6 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(orange,tomato);
 }
-
-
-
 
 #for-footer{
     width: 100%;
